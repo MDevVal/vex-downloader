@@ -1,7 +1,6 @@
 # VEX Downloader
 
-A Python script to download the latest or specific versions of VexOS firmware and SDKs for VEX robotics platforms (V5, IQ2, and EXP).
-
+A Python script designed to download the latest or specific versions of VexOS firmware and SDKs for VEX Robotics platforms, including V5, IQ2, and EXP.
 
 ```
 usage: vex-downloader.py [-h] -p {V5,IQ2,EXP} -t {os,sdk} [-l {python,cpp,both}] [-v VERSION] [--list] [-o OUTPUT] [--all]

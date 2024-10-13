@@ -3,7 +3,6 @@ import requests
 import sys
 import os
 
-
 def download_vexos(platform, version=None, output_path=None, output_name=None):
     base_url = f"https://content.vexrobotics.com/vexos/public/{platform}"
     catalog_url = f"{base_url}/catalog.txt"
